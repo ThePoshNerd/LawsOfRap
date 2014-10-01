@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            A_HomeScreen
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
+        <!-- ipad -->
+        <meta name="msapplication-tap-highlight" content="no" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.3/jquery.mobile.structure-1.4.3.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.9.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                if (navigator.userAgent.match(/iP/i))
+                {
+                    $(window).bind('orientationchange', function(event)
+                    {
+                        $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+                    }).trigger('orientationchange');
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.3/jquery.mobile-1.4.3.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/plugins/jquery.easing.1.3.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/jqm-docs/js/jqm-docs.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/jquery.mobile.scrollview.js">
+        </script>
+        <link href="files/resources/lib/jquerymobile/jqm-docs/css/jqm-docs.css" rel="stylesheet"
+        type="text/css" />
+        <link href="files/resources/lib/jquerymobile/jqm-docs/css/jquery.mobile.scrollview.css"
+        rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+        <script type="text/javascript" src="https://www.youtube.com/iframe_api">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-youtube/jquery.ui.youtube.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:768px;" dsid="A_HomeScreen" id="A_HomeScreen"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader2 -->
+            <div data-role="header" data-position="data-position='inline'" data-add-back-btn="false"
+            data-back-btn-text="Back" data-theme="b" name="mobileheader2" id="A_HomeScreen_mobileheader2"
+            class="A_HomeScreen_mobileheader2">
+                <h1 dsid="mobileheader2">
+                    Caption
+                </h1>
+            </div>
+            <!-- mobilecontainer2 -->
+            <div role="main" id="A_HomeScreen_mobilecontainer2" name="mobilecontainer2" class="A_HomeScreen_mobilecontainer2 ui-content"
+            style="padding:0;" dsid="mobilecontainer2" data-theme="b">
+                <link href="A_HomeScreen.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="A_HomeScreen.js">
+                </script>
+                <div class="scroller" data-scroll="y">
+                    <div style="padding:0">
+                        <div class="content-primary">
+                        </div>
+                        <!-- /content-primary -->
+                    </div>
+                </div>
+                <div class="content-secondary">
+                    <div class="scroller" data-scroll="y">
+                        <div style="padding:0">
+                            <div data-role="collapsible" data-collapsed="true" data-theme="">
+                                <h3>
+                                    More in this section
+                                </h3>
+                                <!-- mobilelist_3 -->
+                                <ul data-role="listview" id="A_HomeScreen_mobilelist_3" class="A_HomeScreen_mobilelist_3"
+                                name="mobilelist_3" dsid="mobilelist_3" data-theme="b" data-divider-theme="b" data-count-theme="b"
+                                style="" data-split-icon="carat-r">
+                                    <!-- mobilelistitem_4 -->
+                                    <li class="A_HomeScreen_mobilelistitem_4" data-icon="carat-r">
+                                        <a id="A_HomeScreen_mobilelistitem_4" name="mobilelistitem_4" dsid="mobilelistitem_4"
+                                        tabindex="1" class="A_HomeScreen_mobilelistitem_4">
+                                        <h3>The Four Laws of Media</h3>
+                                        </a>
+                                    </li>
+                                    <!-- mobilelistitem_6 -->
+                                    <li class="A_HomeScreen_mobilelistitem_6" data-icon="carat-r">
+                                        <a id="A_HomeScreen_mobilelistitem_6" name="mobilelistitem_6" dsid="mobilelistitem_6"
+                                        tabindex="1" class="A_HomeScreen_mobilelistitem_6">
+                                        <h3>Rap Music</h3>
+                                        </a>
+                                    </li>
+                                    <!-- mobilelistitem_8 -->
+                                    <li class="A_HomeScreen_mobilelistitem_8" data-icon="carat-r">
+                                        <a id="A_HomeScreen_mobilelistitem_8" name="mobilelistitem_8" dsid="mobilelistitem_8"
+                                        tabindex="1" class="A_HomeScreen_mobilelistitem_8">
+                                        <h3>Writing Culture and Conquest</h3>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /content-secondary -->
+            </div>
+            <!-- mobilefooter2 -->
+            <div data-role="footer" data-position="fixed" class="A_HomeScreen_mobilefooter2"
+            name="mobilefooter2" dsid="mobilefooter2" id="A_HomeScreen_mobilefooter2" data-theme="b">
+            </div>
+        </div>
+    </body>
+
+</html>

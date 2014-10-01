@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            C_RapTetrad
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <link href="files/resources/lib/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="files/resources/lib/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="files/resources/lib/jquerymobile/1.4.3/jquery.mobile.structure-1.4.3.css"
+        rel="stylesheet" />
+        <script type="text/javascript" src="files/resources/lib/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/store/json2.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery/jquery-1.9.1.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                if (navigator.userAgent.match(/iP/i))
+                {
+                    $(window).bind('orientationchange', function(event)
+                    {
+                        $('meta[name="viewport"]').attr('content', 'initial-scale=1.0,maximum-scale=1.0, ' + ((window.orientation == 90 || window.orientation == -90 || window.orientation == 270) ? "height=device-width,width=device-height" : "height=device-height,width=device-width"));
+                    }).trigger('orientationchange');
+                }
+            });
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquerymobile/1.4.3/jquery.mobile-1.4.3.js">
+        </script>
+        <script type="text/javascript" src="files/resources/js/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/appery.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/cordova.js">
+        </script>
+        <link href="files/resources/css/mobilebase.css" rel="stylesheet" type="text/css"
+        />
+        <script type="text/javascript" src="files/views/assets/js/services/model.js">
+        </script>
+        <script type="text/javascript" src="files/views/assets/js/services/service.js">
+        </script>
+        <script type="text/javascript" src="https://www.youtube.com/iframe_api">
+        </script>
+        <script type="text/javascript" src="files/resources/lib/jquery-ui-youtube/jquery.ui.youtube.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                
+        </script>
+        <div data-role="page" style="min-height:768px;" dsid="C_RapTetrad" id="C_RapTetrad"
+        class="type-interior" data-theme="b">
+            <!-- mobileheader4 -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="b" name="mobileheader4" id="C_RapTetrad_mobileheader4" class="C_RapTetrad_mobileheader4">
+                <h1 dsid="mobileheader4">
+                    Caption
+                </h1>
+            </div>
+            <!-- mobilecontainer4 -->
+            <div data-role="content" id="C_RapTetrad_mobilecontainer4" name="mobilecontainer4"
+            class="C_RapTetrad_mobilecontainer4 ui-content" dsid="mobilecontainer4" data-theme="b">
+                <link href="C_RapTetrad.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="C_RapTetrad.js">
+                </script>
+                <!-- titleLabel -->
+                <div name="titleLabel" id="C_RapTetrad_titleLabel" dsid="titleLabel" data-role="appery_label"
+                class="C_RapTetrad_titleLabel">
+                    Rap Music
+                </div>
+                <!-- mobilegrid_23 -->
+                <div class="C_RapTetrad_mobilegrid_23_wrapper" data-wrapper-for="mobilegrid_23">
+                    <table id="C_RapTetrad_mobilegrid_23" class="C_RapTetrad_mobilegrid_23" dsid="mobilegrid_23"
+                    name="mobilegrid_23" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <col style="width:auto;" />
+                        <tr class="C_RapTetrad_mobilegrid_23_row_0">
+                            <!-- mobilegridcell_24 -->
+                            <td id="C_RapTetrad_mobilegridcell_24" name="mobilegridcell_24" class="C_RapTetrad_mobilegridcell_24"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- enhanceLabel -->
+                                    <div name="enhanceLabel" id="C_RapTetrad_enhanceLabel" dsid="enhanceLabel" data-role="appery_label"
+                                    class="C_RapTetrad_enhanceLabel">
+                                        Enhance
+                                    </div>
+                                    <!-- spacer_45 -->
+                                    <div id="C_RapTetrad_spacer_45" data-role="appery_spacer" dsid="spacer_45" class='mobilespacer C_RapTetrad_spacer_45'>
+                                    </div>
+                                    <!-- enhanceDefLabel -->
+                                    <div name="enhanceDefLabel" id="C_RapTetrad_enhanceDefLabel" dsid="enhanceDefLabel"
+                                    data-role="appery_label" class="C_RapTetrad_enhanceDefLabel">
+                                        Oral Performance
+                                    </div>
+                                    <!-- enhanceButton --><!--
+                                    --><a data-role="button" name="enhanceButton" dsid="enhanceButton" class="C_RapTetrad_enhanceButton"
+                                    id="C_RapTetrad_enhanceButton" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                                    x-apple-data-detectors="false" data-mini="true" data-theme="b" tabindex="3">
+                                    Example
+                                    </a>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_25 -->
+                            <td id="C_RapTetrad_mobilegridcell_25" name="mobilegridcell_25" class="C_RapTetrad_mobilegridcell_25"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_30 -->
+                            <td id="C_RapTetrad_mobilegridcell_30" name="mobilegridcell_30" class="C_RapTetrad_mobilegridcell_30"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- mobilelabel_49 -->
+                                    <div name="mobilelabel_49" id="C_RapTetrad_mobilelabel_49" dsid="mobilelabel_49"
+                                    data-role="appery_label" class="C_RapTetrad_mobilelabel_49">
+                                        Reverse
+                                    </div>
+                                    <!-- spacer_50 -->
+                                    <div id="C_RapTetrad_spacer_50" data-role="appery_spacer" dsid="spacer_50" class='mobilespacer C_RapTetrad_spacer_50'>
+                                    </div>
+                                    <!-- mobilelabel_51 -->
+                                    <div name="mobilelabel_51" id="C_RapTetrad_mobilelabel_51" dsid="mobilelabel_51"
+                                    data-role="appery_label" class="C_RapTetrad_mobilelabel_51">
+                                        Conservative, anti-black feelings;
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="C_RapTetrad_mobilegrid_23_row_1">
+                            <!-- mobilegridcell_26 -->
+                            <td id="C_RapTetrad_mobilegridcell_26" name="mobilegridcell_26" class="C_RapTetrad_mobilegridcell_26"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_27 -->
+                            <td id="C_RapTetrad_mobilegridcell_27" name="mobilegridcell_27" class="C_RapTetrad_mobilegridcell_27"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_31 -->
+                            <td id="C_RapTetrad_mobilegridcell_31" name="mobilegridcell_31" class="C_RapTetrad_mobilegridcell_31"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="C_RapTetrad_mobilegrid_23_row_2">
+                            <!-- mobilegridcell_28 -->
+                            <td id="C_RapTetrad_mobilegridcell_28" name="mobilegridcell_28" class="C_RapTetrad_mobilegridcell_28"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- retrieveLabel -->
+                                    <div name="retrieveLabel" id="C_RapTetrad_retrieveLabel" dsid="retrieveLabel" data-role="appery_label"
+                                    class="C_RapTetrad_retrieveLabel">
+                                        Retrieve
+                                    </div>
+                                    <!-- spacer_46 -->
+                                    <div id="C_RapTetrad_spacer_46" data-role="appery_spacer" dsid="spacer_46" class='mobilespacer C_RapTetrad_spacer_46'>
+                                    </div>
+                                    <!-- RetrieveDefLabel -->
+                                    <div name="RetrieveDefLabel" id="C_RapTetrad_RetrieveDefLabel" dsid="RetrieveDefLabel"
+                                    data-role="appery_label" class="C_RapTetrad_RetrieveDefLabel">
+                                        The Drum
+                                    </div>
+                                    <!-- retrieveButton --><!--
+                                    --><a data-role="button" name="retrieveButton" dsid="retrieveButton" class="C_RapTetrad_retrieveButton"
+                                    id="C_RapTetrad_retrieveButton" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                                    x-apple-data-detectors="false" data-mini="true" data-theme="b" tabindex="4">
+                                    Example
+                                    </a>
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_29 -->
+                            <td id="C_RapTetrad_mobilegridcell_29" name="mobilegridcell_29" class="C_RapTetrad_mobilegridcell_29"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                </div>
+                            </td>
+                            <!-- mobilegridcell_32 -->
+                            <td id="C_RapTetrad_mobilegridcell_32" name="mobilegridcell_32" class="C_RapTetrad_mobilegridcell_32"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- obsolescenceLabel -->
+                                    <div name="obsolescenceLabel" id="C_RapTetrad_obsolescenceLabel" dsid="obsolescenceLabel"
+                                    data-role="appery_label" class="C_RapTetrad_obsolescenceLabel">
+                                        Obsolescence
+                                    </div>
+                                    <!-- spacer_47 -->
+                                    <div id="C_RapTetrad_spacer_47" data-role="appery_spacer" dsid="spacer_47" class='mobilespacer C_RapTetrad_spacer_47'>
+                                    </div>
+                                    <!-- obsolescenceDefLabel -->
+                                    <div name="obsolescenceDefLabel" id="C_RapTetrad_obsolescenceDefLabel" dsid="obsolescenceDefLabel"
+                                    data-role="appery_label" class="C_RapTetrad_obsolescenceDefLabel">
+                                        Civil Rights Music of Non-violence
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- mobilefooter4 -->
+            <div data-role="footer" data-position="fixed" class="C_RapTetrad_mobilefooter4"
+            name="mobilefooter4" dsid="mobilefooter4" id="C_RapTetrad_mobilefooter4" data-theme="b">
+            </div>
+            <!-- EnhancePopup -->
+            <div data-role="popup" name="EnhancePopup" dsid="EnhancePopup" id="C_RapTetrad_EnhancePopup"
+            class="C_RapTetrad_EnhancePopup" data-corners="true" data-dismissible="true" data-overlay-theme=""
+            data-theme="" data-shadow="true" data-arrow="t" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- youtube_39 -->
+                    <div data-role="appery_youtube" id="C_RapTetrad_youtube_39" dsid="youtube_39" name="youtube_39"
+                    class="C_RapTetrad_youtube_39" videoId="8PaoLy7PHwk" playervars="">
+                    </div>
+                </div>
+            </div>
+            <!-- RetrievePopup -->
+            <div data-role="popup" name="RetrievePopup" dsid="RetrievePopup" id="C_RapTetrad_RetrievePopup"
+            class="C_RapTetrad_RetrievePopup" data-corners="true" data-dismissible="true" data-overlay-theme=""
+            data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- html_43 -->
+                    <div data-role="appery_html" name="html_43" dsid="html_43" id="C_RapTetrad_html_43"
+                    class="C_RapTetrad_html_43">
+                        <h3 class="title_and_authors">
+                            <span class="text_title">
+                                Fight the Power (Part 1 &amp; 2) -
+                            </span>
+                            <span class="text_artist">
+                                The Isley Brothers
+                            </span>
+                        </h3>
+                        <p>
+                            [Verse 1]
+                            <br />
+                            Time is truly wastin&rsquo;, there&rsquo;s no guarantee, yeah
+                            <br />
+                            Smile is in the makin&rsquo;, we;ve got to fight the powers that be
+                            <br />
+                            Got so many voices, saying all the same, yeah
+                            <br />
+                            Killing up all around me, faces full of pain
+                            <br />
+                            <br />
+                            [Refrain]
+                            <br />
+                            I tried to play my music, they say my music&rsquo;s too loud
+                            <br />
+                            I tried talking about it, I got the big runaround
+                            <br />
+                            <span class="has_verified_annotation">
+                                And when I rolled with the punches I got knocked on the ground
+                                <br />
+                                By all this bullshit going down, hey
+                            </span>
+                            <br />
+                            <br />
+                            [Verse 2]
+                            <br />
+                            Time is truly wastin&rsquo;, there&rsquo;s no guarantee, yeah
+                            <br />
+                            Smile is in the makin&rsquo;, we got to fight the powers that be
+                            <br />
+                            I don&rsquo;t understand it, people wanna say yeah
+                            <br />
+                            Those that got the answers, red tape in the way
+                            <br />
+                            I could tend to it easy, let&rsquo;s just have some fun now, now
+                            <br />
+                            Seekin&rsquo; my satisfaction, keeps me on the run
+                            <br />
+                            <br />
+                            [Refrain]
+                            <br />
+                            <br />
+                            [Verse 3]
+                            <br />
+                            Time is truly wastin&rsquo;, there&rsquo;s no guarantee, yeah
+                            <br />
+                            Smile is in the makin&rsquo;, we got to fight the powers that be
+                            <br />
+                            Fight it baby, yeah, woo, hey, even you and I can fight the power
+                            <br />
+                            Fight it, fight the power (repeat to end)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

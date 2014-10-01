@@ -1,0 +1,248 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("files/resources/lib/jquerymobile/1.4.3/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer4 */
+.ui-content.B_HowToUse_mobilecontainer4 {
+	padding: 15px 15px 15px 15px;
+}
+/* titleLabel */
+.B_HowToUse_titleLabel {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Helvetica; font-size: 48px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_52 */
+.B_HowToUse_mobilegrid_52 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.B_HowToUse_mobilegrid_52 > tr > td {
+	vertical-align: top;
+}
+.B_HowToUse_mobilegrid_52_row_0, .B_HowToUse_mobilegrid_52_row_0 > td {
+	height: 30px
+}
+/* mobilegridcell_53 */
+.B_HowToUse_mobilegridcell_53 {
+	height:30px !important;
+	width:276px;
+	padding: 2px 2px 2px 2px;
+}
+.B_HowToUse_mobilegridcell_53 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_61 */
+.B_HowToUse_mobilelabel_61 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_62 */
+.B_HowToUse_spacer_62 {
+	width: 260px; height: 12px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_60 */
+.B_HowToUse_mobilelabel_60 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* spacer_64 */
+.B_HowToUse_spacer_64 {
+	width: 260px; height: 18px;
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelabel_63 */
+.B_HowToUse_mobilelabel_63 {
+	text-decoration: none; font-weight: normal; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_57 */
+.B_HowToUse_mobilegridcell_57 {
+	height:30px !important;
+	width:179px;
+	padding: 2px 2px 2px 2px;
+}
+.B_HowToUse_mobilegridcell_57 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_65 */
+.B_HowToUse_mobilelabel_65 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_68 */
+.B_HowToUse_mobilelabel_68 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_66 */
+.B_HowToUse_mobilelabel_66 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilelabel_69 */
+.B_HowToUse_mobilelabel_69 {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: left; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegrid_23 */
+.B_HowToUse_mobilegrid_23 {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.B_HowToUse_mobilegrid_23 > tr > td {
+	vertical-align: top;
+}
+.B_HowToUse_mobilegrid_23_row_0, .B_HowToUse_mobilegrid_23_row_0 > td {
+	height: 90px
+}
+.B_HowToUse_mobilegrid_23_row_1, .B_HowToUse_mobilegrid_23_row_1 > td {
+	height: 90px
+}
+/* mobilegridcell_24 */
+.B_HowToUse_mobilegridcell_24 {
+	height:90px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+	border-color: #000000; border-width: 1px; border-style: solid;
+}
+.B_HowToUse_mobilegridcell_24 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* enhanceLabel */
+.B_HowToUse_enhanceLabel {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_25 */
+.B_HowToUse_mobilegridcell_25 {
+	height:90px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+	border-color: #000000; border-width: 1px; border-style: solid;
+}
+.B_HowToUse_mobilegridcell_25 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* mobilelabel_49 */
+.B_HowToUse_mobilelabel_49 {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_26 */
+.B_HowToUse_mobilegridcell_26 {
+	height:90px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+	border-color: #000000; border-width: 1px; border-style: solid;
+}
+.B_HowToUse_mobilegridcell_26 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* retreiveLabel */
+.B_HowToUse_retreiveLabel {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilegridcell_27 */
+.B_HowToUse_mobilegridcell_27 {
+	height:90px !important;
+	width:auto;
+	padding: 2px 2px 2px 2px;
+	border-color: #000000; border-width: 1px; border-style: solid;
+}
+.B_HowToUse_mobilegridcell_27 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* obsolesceLabel */
+.B_HowToUse_obsolesceLabel {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 20px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* mobilefooter4 */
+.B_HowToUse_mobilefooter4 {
+	min-height:38px;
+}
+/* EnhancePopup */
+.B_HowToUse_EnhancePopup {
+
+}
+div.B_HowToUse_EnhancePopup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.B_HowToUse_EnhancePopup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 5px 5px 5px 5px;
+}
+/* youtube_39 */
+.B_HowToUse_youtube_39 {
+	margin: 4px 0px 4px 0px;
+	width: 800px; height: 600px;
+	display: block;
+}
+/* RetrievePopup */
+.B_HowToUse_RetrievePopup {
+
+}
+div.B_HowToUse_RetrievePopup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.B_HowToUse_RetrievePopup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* html_43 */
+.B_HowToUse_html_43 {
+	margin: 8px 5px 8px 5px;
+	font-weight: normal;
+	width: 800px; height: 600px;
+}
+div.B_HowToUse_html_43 {
+	overflow: auto;
+}
